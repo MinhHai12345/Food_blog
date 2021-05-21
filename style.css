@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+    #header > .title {
+        width: 80%;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #content {
+        margin-top: 7em!important;
+    }
+
+    .item > img {
+        width: 311px;
+        height: 467px;
+    }
+
+    .row > .item {
+        width: 83%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .container {
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #header > .title {
+        width: 85%;
+    }
+
+    .item > img {
+        width: 164px;
+        height: 246px;
+    }
+
+    .row {
+        display: flex;
+        width: 94%;
+        margin: 0px auto;
+    }
+
+    .row > .item {
+        margin-right: 3%;
+    }
+
+    .row > .item:nth-last-child(1) {
+        float: right;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #header {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .item > img {
+        width: 182px;
+        height: 342px;
+    }
+
+    .row {
+        display: flex;
+        width: 98%;
+        margin: 0px auto;
+    }
+}
+
+
+.container-fluid {
+    width: 100%;
+}
+
+#header {
+    height: 3em;
+    background-color: aqua;
+    line-height: 3em;
+    top: 0;
+    font-size: 150%;
+    position: fixed;
+}
+
+#header > .row {
+    line-height: 4em;
+    text-align: center;
+}
+
+#header > .item {
+    display: inline-block;
+    text-align: center;
+}
+
+#header > .menu {
+    width: 5%;
+}
+
+#header > .menu:hover {
+    background-color: #ccc;
+}
+
+#header > .mail {
+    float: right;   
+}
+
+#content {
+    margin-top: 5em;
+}
